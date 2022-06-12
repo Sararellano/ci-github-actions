@@ -1,0 +1,26 @@
+# Importante las tabulaciones!!
+# Todos los workflows deben tener un name, un inializador (on) y un proceso (jobs)
+name: Say hello
+
+# Cada vez que hagas un push en la rama MAIN, hace JOBS
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # el nombre del job
+  hello_world:
+    # en que sit operativo va a funcionar
+    runs-on: ubuntu-18.04
+    # los pasos que tiene que dar
+    steps:
+      # el nombre es opcional
+      - name: Echo the message
+        # en la misma linea o con el pipe y en una nueva linea. El el comando que usar
+        run: |
+          echo "Hola midu!"
+      - name: Dime la fecha
+        run: date
+      # Dice las carpetas dentro
+      - run: ls -l
