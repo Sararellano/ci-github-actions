@@ -1,5 +1,5 @@
 [![Deployment Pipeline](https://github.com/midudev/pokedex-for-ci/actions/workflows/pipeline.yml/badge.svg)](https://github.com/midudev/pokedex-for-ci/actions/workflows/pipeline.yml)
-
+[![Say hello](https://github.com/Sararellano/ci-github-actions/actions/workflows/hello.yml/badge.svg?branch=main)](https://github.com/Sararellano/ci-github-actions/actions/workflows/hello.yml)
 # Full Stack open CI/CD
 
 This repository is used for the CI/CD module of the Full stack open course
